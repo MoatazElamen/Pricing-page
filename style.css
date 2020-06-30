@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:#191B1D;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width:700px;
+  position: relative;
+  margin:0 auto;
+  margin-top:10px;
+  border:1px solid gray;
+  padding-bottom:30px;
+  border-radius:20px;
+
+}
+ul{
+  list-style-type: none;
+  list-style-position: inside;
+  padding:0;
+}
+
+.currentplan{
+  position: relative;
+  text-align: center;
+  width:250px;
+  height:60px;
+  margin:0 auto;
+  background-color: #BC1E4A;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  padding-top:10px;
+}
+.current{
+  font-size:7pt;
+}
+.startertrial{
+  margin-top:5px;
+  font-size:11pt;
+}
+.header{
+position: relative;
+min-width:150px;
+margin:0 auto;
+text-align: center;
+margin-top:100px;
+}
+.text{
+display:flex;
+width:160px;
+margin:0 auto;
+font-size:7pt;
+margin-top:20px;
+}
+.text div{
+flex:1;
+}
+.slider{ 
+  background-color:#BC1E4A;
+  margin-left:3px;
+  margin-right:3px;
+  height:20px;
+  position: relative;
+  bottom:5px;
+  border-radius:10px;
+  cursor: pointer;
+}
+.sliderball{
+  width:16px;
+  height:16px;
+  position: relative;
+  top:2px;
+  right:2px;
+  float:right;
+  border-radius:50%;
+  background-color:white
+}
+.grid{
+  
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  margin-top:50px;
+  margin:0 auto;
+  width:90%;
+}
+.grid .card{
+  margin-top:20px;
+  flex:1;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  vertical-align: middle;;
+  background-color:#22262C;
+  min-height:300px;
+  border-radius:5px;
+  
+}
+.grid .card:not(:first-child){
+  margin-left:10px;
+}
+.card ul {
+  position:relative;
+  list-style-type:none;
+  list-style-position: inside;
+  margin:0 auto;
+  width:75%;
+  margin-top:30px;
+  
+}
+
+.card ul >li{
+  font-size:6pt;
+  margin-top:10px;
+}
+.card ul > li::before{
+  content:"\2022";
+  color:#BC1E4A;
+  width:1em;
+  font-weight: bold;
+
+}
+.title{
+  width:100%;
+  text-align:center;
+  position:relative;
+  margin-top:20px;
+  font-size:11pt;
+}
+.price{
+  position:relative;
+  margin:0 auto;
+  text-align: center;
+  font-size:19pt;
+  font-weight:990;
+  margin-top:7pt;
+
+}
+.permonth{
+  font-size:11pt;
+  font-weight:200;
+}
+.talk{
+  font-size:15pt;
+  font-weight:500;
+}
+.btn { 
+  width:130px;
+  position: relative;
+  margin:0 auto;
+  text-align: center;
+  border:1px solid #BC1E4A;
+  height: 35px;
+  justify-content: center;
+  padding-top:7px;
+  bottom:0px;
+  margin-top:35px;
+  border-radius:3px;
+  cursor: pointer;
+  transition: background 1s;
+
+}
+.btn:hover{
+  background:#BC1E4A;
+}
+.card select{ 
+  position:relative;
+  width:150px;
+  height:40px;
+  background-color:#22262C;
+  outline:none;  
+  left:30px;
+  top:10px;
+  padding:0 10px;
+  border-color:#2B2F35;
+  border-width:2px;
+  padding-right:-20px;
+  margin:0 auto;
+  color :White;
+  text-align: center;
+
+}
+
+
+
